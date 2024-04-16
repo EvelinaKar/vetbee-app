@@ -1,0 +1,16 @@
+.button {
+    background-color: rgb(251 128 22);
+    color: rgb(255 255 255);
+    border: rgb(251 128 22) 1px solid !important;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+
